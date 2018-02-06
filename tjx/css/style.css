@@ -1,0 +1,36 @@
+.poc{
+  position: absolute;
+    margin-top: -2.7%;
+    margin-left: 48.6%;
+}
+.appbar{
+    position: relative;
+}
+
+
+.lowerGrid{
+  background-color: rgb(235,235,235) ! important;
+}
+.segment{
+
+}
+.header{
+   color: rgb(155,12,35);
+   font-family: 'Bungee', cursive;
+}
+.tableHeader{
+   background-color: rgb(155,12,35) ! important;
+   color: green;
+}
+.table1{
+  background-color: rgb(255,255,255) ! important;
+  color: black;
+}
+.homeHeader{
+   color: rgb(155,12,35);
+   font-family: 'Bungee', cursive;
+   font-size: 50px;
+}
+.reveal{
+
+}

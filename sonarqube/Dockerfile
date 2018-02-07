@@ -1,4 +1,3 @@
-FROM sonarqube
-RUN mkdir /srv/app
-WORKDIR /srv/app
-COPY . .
+FROM sonarqube:latest
+
+ADD sonar-scanner /opt/sonarqube

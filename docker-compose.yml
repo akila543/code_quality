@@ -6,9 +6,10 @@ services:
     restart: always
     networks:
       n7:
-        ipv4_address: 172.23.0.4
+        ipv4_address: 172.23.0.3
     ports:
-      - 9096:9000
+      - 9092:9000
+ 
   jenkins:
      image: jenkins
      build: jenkins
@@ -21,7 +22,6 @@ services:
      links:
       - sonarqube
     
-     
 networks:
   n7:
     driver: bridge
